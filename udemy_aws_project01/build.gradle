@@ -57,13 +57,13 @@ dependencies {
 
 	//runtimeOnly 'com.amazonaws', name: 'aws-java-sdk-sns', version: '1.11.887'
 	implementation  group: 'com.amazonaws', name: 'aws-java-sdk-sns', version: '1.11.887'
+    implementation group: 'com.amazonaws', name: 'aws-java-sdk-sqs', version: '1.11.887'
 
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa:'
 	implementation 'org.mariadb.jdbc:mariadb-java-client'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
-
 
 test {
 	useJUnitPlatform()
