@@ -28,7 +28,7 @@ sourceCompatibility = '16'
 
 bootJar {
 	baseName = 'udemy_aws_project01'
-	version =  '1.5.0'
+	version =  '1.7.0'
 	mainClassName = "io.github.doflavio.udemy_aws_project01.UdemyAwsProject01Application"
 }
 
